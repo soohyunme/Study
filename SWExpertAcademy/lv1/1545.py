@@ -1,0 +1,1 @@
+print(*reversed(range(int(input())+1)))

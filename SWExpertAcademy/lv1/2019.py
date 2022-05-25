@@ -1,0 +1,1 @@
+print(*[2**i for i, x in enumerate(range(1, int(input())+2))])

@@ -1,0 +1,1 @@
+print(*[ord(x) - 64 for x in input()])

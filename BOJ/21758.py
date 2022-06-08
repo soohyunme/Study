@@ -10,12 +10,8 @@ tmp = arr[-1]
 for i in range(2, n+1):
     tmp += arr[-i]
     max_val = max(total - arr[-1] - arr[-i] + total - tmp, max_val)
-tmp = 0
-tmp2 = total - arr[0] - arr[-1]
 for i in range(1, n-1):
-    tmp += arr[i]
-    max_val = max(tmp + tmp2, max_val)
-    tmp2 -= arr[i]
+    max_val = max(total - arr[0] - arr[-1] + arr[i], max_val)
 print(max_val)
 
 '''

@@ -24,3 +24,7 @@ print(''.join(map(str, arr)))
 
 # 배열 출력 2 (공백 구분)
 print(*arr)
+
+# DFS에서 재귀 오류 시
+import sys
+sys.setrecursionlimit(15000)

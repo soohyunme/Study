@@ -17,7 +17,7 @@ n, *arr = map(int, input().split())
 # input = 3 \n AAAA \n BBBB \n CCCC
 arr = [list(input()) for _ in range(n)]
 
-배열 출력 (Custom)
+# 배열 출력 (Custom)
 arr = [1, 2, 3, 4]
 arr = [1, 2, 3, 4]
 print(''.join(map(str, arr)))

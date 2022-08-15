@@ -1,2 +1,2 @@
 # Study
-Believe yourself
+Believe in yourself
